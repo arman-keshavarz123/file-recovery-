@@ -1,3 +1,5 @@
 *.o
 nyufile
 .DS_Store
+nyufile.zip
+fat32.disk
