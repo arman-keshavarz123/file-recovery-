@@ -43,28 +43,6 @@ make clean
 - `-l` - List the root directory contents
 - `-r <filename> [-s <sha1>]` - Recover a contiguous file (optionally with SHA-1 verification)
 
-### Examples
-
-1. **Display file system information:**
-   ```bash
-   ./nyufile fat32.disk -i
-   ```
-
-2. **List root directory:**
-   ```bash
-   ./nyufile fat32.disk -l
-   ```
-
-3. **Recover a deleted file:**
-   ```bash
-   ./nyufile fat32.disk -r deleted_file.txt
-   ```
-
-4. **Recover a file with SHA-1 verification:**
-   ```bash
-   ./nyufile fat32.disk -r deleted_file.txt -s da39a3ee5e6b4b0d3255bfef95601890afd80709
-   ```
-
 
 ## How It Works
 
