@@ -1,6 +1,6 @@
-# NYUFile - FAT32 File Recovery Tool
+# FAT32 File Recovery Tool
 
-A command-line utility for analyzing and recovering files from FAT32 file systems. This tool is designed for educational purposes as part of an NYU Operating Systems lab assignment.
+A command-line utility for analyzing and recovering files from FAT32 file systems.
 
 ## Features
 
@@ -109,25 +109,3 @@ The tool uses two main data structures:
 - Only supports contiguous file recovery
 - No support for subdirectories
 
-## File Structure
-
-```
-nyufile/
-├── nyufile.c      # Main source code
-├── Makefile       # Build configuration
-├── fat32.disk     # Sample FAT32 disk image
-└── README.md      # This file
-```
-
-## Educational Context
-
-This project demonstrates key operating systems concepts including:
-- File system internals and data structures
-- Low-level disk I/O operations
-- Memory mapping techniques
-- File system recovery algorithms
-- FAT (File Allocation Table) traversal
-
-## License
-
-This project is part of an educational assignment and is intended for learning purposes only.
